@@ -1,0 +1,76 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+p {
+    text-align: center;
+}
+
+svg {
+    width: 90;
+    height: 90;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+}
+
+.css-1ovqurc-PTitle-emuynwa1 {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: TikTokDisplayFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    color: rgb(22, 24, 35);
+    margin-top: 24px;
+}
+
+.css-1kls0os-PDesc-emuynwa2 {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 400;
+    color: rgba(22, 24, 35, 0.75);
+    margin-top: 8px;
+}
+
+.p-flex {
+    display: flex;
+    justify-content: center;
+}
+
+p button {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgb(22, 24, 35);
+    border-color: rgba(22, 24, 35, 0.12);
+    background-color: rgb(255, 255, 255);
+    min-width: 168px;
+    min-height: 48px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: TikTokDisplayFont, PingFangSC, sans-serif;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 6px 8px;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
